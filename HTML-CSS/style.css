@@ -1,0 +1,75 @@
+h1{
+    color:blue;
+}
+p {
+    color:red;
+}
+
+.notblue{
+    color: orange;
+}
+
+.notred{
+    color: cyan;
+}
+
+.red-rgb{
+    color:rgb(123,14,51);
+}
+.red-hex{
+    color:#0045ff;
+}
+.red-rgba{
+    color:rgba(123,14,51/60%) ;
+}  
+
+.font{
+    font-family: 'Unchen',serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.font2{
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.rectangle{
+width: 500px;
+height: 300px;
+background-color: red;
+
+/* show shorthand */
+/* border:black solid 10px; */
+margin:20px;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+
+    border-radius:50%;
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    background-origin:green;
+
+    padding:20px;
+
+}
+
+.image{
+    width: 500px;
+    height: 300px;
+
+    background-image: url ("img/NAME.png");
+    /* show different size */
+    background-size:contain;
+    /* no repeat show repeat, different starting position */
+    background-repeat: no-repeat;
+    background-position: center;
+}
